@@ -20,6 +20,8 @@ public class HelloController {
     public String index() {
         String str = "hello SpringBoot";
         String s = "我是nnnnnnnnn";
+        System.out.println("hot fix"+str);
+
         return str+s;
     }
 
