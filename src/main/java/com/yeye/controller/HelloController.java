@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class HelloController {
 
-    @GetMapping({"/","/index"})
+    @GetMapping({"/#","/index"})
     public String index() {
         return "hello SpringBoot";
     }
