@@ -19,6 +19,7 @@ public class HelloController {
     @GetMapping({"/#","/index"})
     public String index() {
         String str = "hello SpringBoot";
+        System.out.println("hot fix"+str);
         return str;
     }
 
