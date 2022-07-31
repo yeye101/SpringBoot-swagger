@@ -19,7 +19,8 @@ public class HelloController {
     @GetMapping({"/#","/index"})
     public String index() {
         String str = "hello SpringBoot";
-        return str;
+        String s = "我是nnnnnnnnn";
+        return str+s;
     }
 
     @GetMapping("/hello")
